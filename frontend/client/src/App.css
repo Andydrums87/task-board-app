@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#root {
+
+  max-width: 1280px;
+  /* background-color: #F8FAFC;   */
+  text-align: center;
+  min-height:100vh;
+  font-family:"Outift", sans-serif;
+
+}
+
+.container {
+  
+  padding-top: 40px;;
+  width:45%;
+  margin: 0 auto;
+  text-align: start;
+  padding-bottom: 50px;;
+
+}
+
+@media (max-width: 640px) {
+  .container {
+    width:90%;
+  }
+}

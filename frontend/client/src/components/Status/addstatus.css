@@ -1,0 +1,59 @@
+.status__container {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap:10px;
+    margin-bottom: 20px;;
+}
+
+.status__btn {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:45%;
+    border: 2px solid  #E3E8EF;
+    background-color: transparent;
+    padding:2px;
+    
+    border-radius: 10px;;
+    cursor: pointer;
+
+}
+
+.statusActive {
+    border: 2px solid #3662E3;
+    background-image: url(/src/images/close_ring_duotone.svg);
+    
+
+}
+
+.inprogress {
+    background-color: 
+    #E9A23B;
+    height:35px;;
+    width:15%;
+    border-radius: 10px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed {
+    background-color: #32D657;
+    height:35px;;
+    width:15%;
+    border-radius: 10px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wontdo {
+    background-color: #DD524C;
+    height:35px;;
+    width:15%;
+    border-radius: 10px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

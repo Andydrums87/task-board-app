@@ -1,0 +1,30 @@
+.addtask {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: 
+    #F5E8D5;
+    padding:35px 15px;
+    border-radius: 15px;
+    height:15px;
+    margin-top:20px;
+  cursor: pointer;
+}
+
+.add__btn {
+    background-color: #E9A23B;
+    height:40px;;
+    width:8%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;;
+}
+
+.add__title {
+  font-weight: 600;
+  font-size: 0.875rem;;
+}
