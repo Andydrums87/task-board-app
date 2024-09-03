@@ -16,7 +16,7 @@ function App() {
   const icons = ["🧑‍💻", "💬", "☕", "🏋️‍♂️", "📚", "⏰"];
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/getTasks") 
+    axios.get("https://task-board-app-backend.onrender.com/api/getTasks") 
     .then(result => {
       console.log(result.data)
       setTaskList(result.data)
@@ -61,7 +61,7 @@ function App() {
     <AddTask handleOpen={handleOpen} />
     </div>
 
-    
+
     </body>
   )
 }

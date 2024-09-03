@@ -24,7 +24,7 @@ function SideBar ({isOpen, icons, handleClose}) {
       toast.error("fields must be filled")
       return;
     }
-    axios.post("http://localhost:5000/api/addTask", 
+    axios.post("https://task-board-app-backend.onrender.com/api/addTask", 
       {
         task: newTask,
         description: newDescription,

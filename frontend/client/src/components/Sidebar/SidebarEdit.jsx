@@ -51,7 +51,7 @@ useEffect(() => {
       toast.error("fields must be filled")
       return;
     }
-    axios.post("http://localhost:5000/api/updateTaskList/" + editableId, editedData)
+    axios.post("https://task-board-app-backend.onrender.com/api/updateTaskList/" + editableId, editedData)
     .then(result => {
       toast.success("Task Edited Successfully")
     console.log(result)
@@ -70,7 +70,7 @@ useEffect(() => {
 
     const deleteTask =  (e) => {
       e.preventDefault()
-         axios.delete("http://localhost:5000/api/deleteTaskList/" + editableId)
+         axios.delete("https://task-board-app-backend.onrender.com/api/deleteTaskList/" + editableId)
          .then(result => {
            console.log(result);
            toast.success("Task Deleted Successfully")

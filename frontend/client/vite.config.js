@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-    '/api': "http://localhost:5000"
+    '/api': "https://task-board-app-backend.onrender.com"
     },
     base: '/task-board/',
     build: {
