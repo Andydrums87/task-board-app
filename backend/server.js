@@ -27,8 +27,8 @@ const boardRouter = express.Router()
 
 
 
-taskRouter.get("/api/getTasks", async (req, res) => {
-    await TaskModel.find({})
+taskRouter.get("/api/getTasks", (req, res) => {
+    TaskModel.find({})
     
     .then((taskList) => 
     res.json(taskList))
