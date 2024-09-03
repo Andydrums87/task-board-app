@@ -89,7 +89,7 @@ textarea {
     padding:9px 25px;
     background-color: #3662E3;
     color: #E3E8EF;
-    background-image: url(src/images/Done_round.svg);
+    background-image: url(/images/Done_round.svg);
     background-repeat: no-repeat;
     background-position: 80% 50%;
     cursor: pointer;
@@ -105,7 +105,7 @@ textarea {
     padding:9px 25px;
     background-color: #3662E3;
     color: #E3E8EF;
-    background-image: url(src/images/Done_round.svg);
+    background-image: url(/images/Done_round.svg);
     background-repeat: no-repeat;
     background-position: 80% 50%;
     cursor: pointer;
@@ -124,7 +124,7 @@ textarea {
 
     padding:9px 25px;
     background-color: #97A3B6;
-    background-image: url(src/images/Trash.svg);
+    background-image: url(/images/Trash.svg);
     background-repeat: no-repeat;
     background-position: 80% 50%;
     color: #E3E8EF;
