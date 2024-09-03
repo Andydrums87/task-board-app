@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
     '/api': "https://task-board-app-backend.onrender.com"
     },
-    base: '/task-board/',
+    base: '/task-board-app/',
     build: {
       outDir: 'dist',
    },
